@@ -1,4 +1,5 @@
 let rangeNumber;
+
 positiveCheck:
 while (true) {
     let n = prompt("Enter a positive integer");
