@@ -1,17 +1,11 @@
 let rangeNumber;
 positiveCheck:
-for (let i = 0; i >= 0; i++) {
+while (true) {
     let n = prompt("Enter a positive integer");
-    let number = Number(n);
-    let intCheck = Number.isInteger(number);
-    if (intCheck == true) {
-        if (number >= 0) {
-            rangeNumber = number;
-            break positiveCheck;
-        }
-        else {
-            continue positiveCheck;
-        }
+    let number = parseInt(n);
+    if (number > 0) {
+        rangeNumber = number;
+        break positiveCheck;
     }
     else {
         continue positiveCheck;
@@ -31,8 +25,8 @@ function primeFactorsTo(max) {
     return primes;
 }
 
-if (rangeNumber == 0 || rangeNumber == 1) {
-    alert("For n = " + rangeNumber + " is no prime number.");
+if (rangeNumber == 1) {
+    alert("For n = " + rangeNumber + " prime numbers are " + primeFactorsTo(rangeNumber));
 }
 else if (rangeNumber == 2) {
     alert("For n = " + rangeNumber + " prime number is " + primeFactorsTo(rangeNumber));
