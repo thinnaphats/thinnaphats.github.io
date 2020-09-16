@@ -2,14 +2,18 @@ let rangeNumber;
 positiveCheck:
 while (true) {
     let n = prompt("Enter a positive integer");
-    let number = parseInt(n);
-    if (number > 0) {
-        rangeNumber = number;
-        break positiveCheck;
+    let number = Number(n);
+    let numberCheck = Number.isInteger(number);
+    if (numberCheck == true) {
+        if (number > 0) {
+            rangeNumber = number;
+            break positiveCheck;
+        }
+        else {
+            continue positiveCheck;
+        }
     }
-    else {
-        continue positiveCheck;
-    }
+    
 }
 
 function primeFactorsTo(max) {
