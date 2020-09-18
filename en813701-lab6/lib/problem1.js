@@ -1,10 +1,12 @@
-let rangeNumber;
+let rangeNumber,
+number,
+numberCheck;
 
 positiveCheck:
 while (true) {
     let n = prompt("Enter a positive integer");
-    let number = Number(n);
-    let numberCheck = Number.isInteger(number);
+    number = Number(n);
+    numberCheck = Number.isInteger(number);
     if (numberCheck == true) {
         if (number > 0) {
             rangeNumber = number;
@@ -34,7 +36,7 @@ if (rangeNumber == 1) {
     alert("For n = " + rangeNumber + " prime numbers are " + primeFactorsTo(rangeNumber));
 }
 else if (rangeNumber == 2) {
-    alert("For n = " + rangeNumber + " prime number is " + primeFactorsTo(rangeNumber));
+    alert("For n = " + rangeNumber + " prime numbers are " + primeFactorsTo(rangeNumber));
 }
 else {
     alert("For n = " + rangeNumber + " prime numbers are " + primeFactorsTo(rangeNumber));
