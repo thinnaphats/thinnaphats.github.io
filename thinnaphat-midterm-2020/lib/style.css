@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarabun', sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #87ceeb;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ff0000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: pink;
+    background-color: black;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  /* Set the topic of homepage */
+
+h1 {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+
+  /* Picture "Book are magic" */
+
+  #bookAreMagic {
+      width: 30%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 30px;
+      display: block;
+  }
+
+  /* For the content */
+
+  q {
+      font-weight: bold;
+  }
+
+  p {
+      margin-bottom: 30px;
+  }
+
+  /* For the table in Thai boos page */
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+
+th,
+tr,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #55eecc;
+}
+
+tr:nth-child(odd) {
+    background-color: #cccccc;
+}
+
+.thaiBooks table tr td:last-child {
+    text-align: right;
+}
+
+.engBooksPage {
+    width: 100%;
+}
+.engBooks table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.engBooks {
+    background-color:#ffffff;
+    border: white;
+}
+
+.engBooks td {
+    text-align: center;
+    font-weight: bold;
+}
+
+.engBooks td:last-child {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* For the links page */
+
+iframe {
+    width: auto;
+}
+
+ul, li {
+    margin-left: 30px;
+}
+
+/* For Order page */
+
+h3 {
+    text-align: center;
+}
