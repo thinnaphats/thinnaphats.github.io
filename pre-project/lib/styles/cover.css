@@ -117,8 +117,9 @@ body {
 }
 
 .helicopter-logo {
-  width: 50%;
+  width: 60%;
   height: auto;
+  margin-bottom: 5%;
 }
 
 .helicopter-logo:hover {
@@ -126,12 +127,12 @@ body {
   animation-timing-function: linear;
 }
 
-@-webkit-keyframes rotateY {
+@keyframes rotateY {
   0% {
     transform: rotateY(0deg);
   }
   100% {
-    transform: rotateY(359deg);
+    transform: rotateY(360deg);
   }
 }
 
@@ -145,4 +146,9 @@ body {
 
 .mastfoot a:hover {
   color: #ff7b00;
+}
+
+.mastfoot p {
+  color: #ff7b00;
+  font-weight: bold;
 }
