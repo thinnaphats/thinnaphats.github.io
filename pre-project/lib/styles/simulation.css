@@ -48,7 +48,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 60em;
 }
 
 
@@ -86,15 +86,6 @@ body {
   margin-left: 1rem;
 }
 
-.nav-masthead .active {
-  color: #ff7b00;
-  border-bottom-color: #ff7b00;
-}
-
-.lang {
-  font-size: 1em;
-}
-
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -108,32 +99,64 @@ body {
 /*
  * Cover
  */
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+
+ .main{
+   display: flex;
+ }
+
+ .design_helicopter {
+   font-size: 1.25rem;
+   font-weight: bold;
+ }
+
+ .slidecontainer {
+  width: 30%;
 }
 
-.helicopter-logo {
-  width: 60%;
-  height: auto;
-  margin-bottom: 5%;
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
 }
 
-.helicopter-logo:hover {
-  animation: rotateY 0.1s infinite;
-  animation-timing-function: linear;
+.slider:hover {
+  opacity: 1;
 }
 
-@keyframes rotateY {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ff7b00;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ff7b00;
+  cursor: pointer;
+}
+
+.btn-secondary,
+.btn-secondary:focus {
+  color: #ffffff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #ff0000;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #ff0000;
 }
 
 /*
