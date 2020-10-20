@@ -101,7 +101,7 @@ body {
  */
 
  .main{
-   display: flex;
+   display: inline-block;
  }
 
  .design_helicopter {
@@ -110,7 +110,8 @@ body {
  }
 
  .slidecontainer {
-  width: 30%;
+  width: 40%;
+  justify-content: left;
 }
 
 .slider {
@@ -157,6 +158,26 @@ body {
 
 .btn-secondary:hover {
   background-color: #ff0000;
+}
+
+.result_helicopter {
+  font-size: 2rem;
+}
+
+.simulate_img {
+  width: 70px;
+  height: auto;
+  position: absolute;
+}
+
+.simulator_area{
+  width: 40%;
+}
+
+.result_area .result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff7b00;
 }
 
 /*

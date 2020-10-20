@@ -50,43 +50,26 @@
         <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange4">
         <p>ความยาวลำตัว: <span id="demo4"></span> มิลลิเมตร</p>
         <br><br>
-        <button class="btn btn-lg btn-secondary">เริ่มการจำลอง</button>
+        <button class="btn btn-lg btn-secondary" id="simButton">เริ่มการจำลอง</button>
+        <br><br>
+        <p class="result_helicopter">Result</p>
+        <p>ความกว้างปีก = <span id="result_wing_w"></span> มิลลิเมตร</p>
+        <p>ความยาวปีก = <span id="result_wing_l"></span> มิลลิเมตร</p>
+        <p>ความกว้างลำตัว = <span id="result_body_w"></span> มิลลิเมตร</p>
+        <p>ความยาวลำตัว = <span id="result_body_l"></span> มิลลิเมตร</p>
       </div>
-      
-      <script>
-      var slider = document.getElementById("myRange");
-      var output = document.getElementById("demo");
-      output.innerHTML = slider.value;
-      
-      slider.oninput = function() {
-        output.innerHTML = this.value;
-      }
-      var slider2 = document.getElementById("myRange2");
-      var output2 = document.getElementById("demo2");
-      output2.innerHTML = slider.value;
-      
-      slider2.oninput = function() {
-        output2.innerHTML = this.value;
-      }
-      var slider3 = document.getElementById("myRange3");
-      var output3 = document.getElementById("demo3");
-      output3.innerHTML = slider.value;
-      
-      slider3.oninput = function() {
-        output3.innerHTML = this.value;
-      }
-      var slider4 = document.getElementById("myRange4");
-      var output4 = document.getElementById("demo4");
-      output4.innerHTML = slider.value;
-      
-      slider4.oninput = function() {
-        output4.innerHTML = this.value;
-      }
-      </script>
+      <div class="simulator_area">
+      </div>
+      <div class="result_area">
+
+      </div>
+
+      <script src="lib/scripts/app.js"></script>
     </main>
 
     <footer class="mastfoot mt-auto">
-      <p>เปลี่ยนภาษา:&nbsp&nbsp<a href="simulation-th.html">&nbspไทย&nbsp</a> - <a href="simulation-en.html">&nbspENG</a></p>
+      <p>เปลี่ยนภาษา:&nbsp&nbsp<a href="simulation-th.html">&nbspไทย&nbsp</a> - <a
+          href="simulation-en.html">&nbspENG</a></p>
     </footer>
   </div>
 </body>
