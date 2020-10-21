@@ -39,34 +39,48 @@
     </header>
 
     <main role="main" class="main">
-      <div class="slidecontainer">
-        <p class="design_helicopter">ออกแบบเฮลิคอปเตอร์ของคุณ</p>
-        <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange">
-        <p>ความกว้างปีก: <span id="demo"></span> มิลลิเมตร</p>
-        <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange2">
-        <p>ความยาวปีก: <span id="demo2"></span> มิลลิเมตร</p>
-        <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange3">
-        <p>ความกว้างลำตัว: <span id="demo3"></span> มิลลิเมตร</p>
-        <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange4">
-        <p>ความยาวลำตัว: <span id="demo4"></span> มิลลิเมตร</p>
+      <div class="row">
+        <div class="col-md">
+          <div class="slidecontainer">
+            <p class="design_helicopter">ออกแบบเฮลิคอปเตอร์ของคุณ</p>
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange">
+            <p>ความกว้างปีก: <span id="demo"></span> มิลลิเมตร</p>
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange2">
+            <p>ความยาวปีก: <span id="demo2"></span> มิลลิเมตร</p>
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange3">
+            <p>ความกว้างลำตัว: <span id="demo3"></span> มิลลิเมตร</p>
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange4">
+            <p>ความยาวลำตัว: <span id="demo4"></span> มิลลิเมตร</p>
+            <br><br>
+            <button class="btn btn-lg btn-secondary" id="simButton">เริ่มการจำลอง</button>
+            <br><br>
+            <p class="result_helicopter">Result</p>
+            <p>ความกว้างปีก = <span id="result_wing_w"></span> มิลลิเมตร</p>
+            <p>ความยาวปีก = <span id="result_wing_l"></span> มิลลิเมตร</p>
+            <p>ความกว้างลำตัว = <span id="result_body_w"></span> มิลลิเมตร</p>
+            <p>ความยาวลำตัว = <span id="result_body_l"></span> มิลลิเมตร</p>
+          </div>
+        </div>
         <br><br>
-        <button class="btn btn-lg btn-secondary" id="simButton">เริ่มการจำลอง</button>
-        <br><br>
-        <p class="result_helicopter">Result</p>
-        <p>ความกว้างปีก = <span id="result_wing_w"></span> มิลลิเมตร</p>
-        <p>ความยาวปีก = <span id="result_wing_l"></span> มิลลิเมตร</p>
-        <p>ความกว้างลำตัว = <span id="result_body_w"></span> มิลลิเมตร</p>
-        <p>ความยาวลำตัว = <span id="result_body_l"></span> มิลลิเมตร</p>
-      </div>
-      <div class="simulator_area">
-      </div>
-      <div class="result_area">
+        <div class="simulator_area">
+          <br><br>
+          <div class="col-sm ">
+            <div class="square">
+              <span class="time" id="display">00:00 Sec</span>
+            </div>
+          </div>
+          <br><br>
+          <img src="lib/images/helicopter-logo.png" class="icon-helicopter" id="iconAnimate" width="20%" alt="">
 
-      </div>
+        </div>
 
-      <script src="lib/scripts/app.js"></script>
+        <div class="result_area">
+
+        </div>
+
+        <script src="lib/scripts/app.js"></script>
+      </div>
     </main>
-
     <footer class="mastfoot mt-auto">
       <p>เปลี่ยนภาษา:&nbsp&nbsp<a href="simulation-th.html">&nbspไทย&nbsp</a> - <a
           href="simulation-en.html">&nbspENG</a></p>

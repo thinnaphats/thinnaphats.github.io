@@ -105,7 +105,7 @@ body {
  }
 
  .design_helicopter {
-   font-size: 1.25rem;
+   font-size: 1rem;
    font-weight: bold;
  }
 
@@ -172,6 +172,7 @@ body {
 
 .simulator_area{
   width: 40%;
+  float: right;
 }
 
 .result_area .result {
@@ -179,6 +180,31 @@ body {
   font-weight: bold;
   color: #ff7b00;
 }
+
+/*
+ *Stopwatch
+ */
+ .square {
+   float: right; ;
+  
+  border: 2px solid #73AD21;
+  padding: 10px;
+  height: 60px;
+  width: 120px; 
+}
+
+.time {
+  font-weight: 300;
+  font-size: 20px;
+  
+}
+
+.icon-helicopter{
+  margin-right: 180px ;
+ 
+}
+
+
 
 /*
  * Footer

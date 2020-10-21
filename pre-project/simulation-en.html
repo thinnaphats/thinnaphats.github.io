@@ -39,36 +39,48 @@
     </header>
 
     <main role="main" class="inner cover">
-      <div class="slidecontainer">
-        <p class="design_helicopter">Design your helicopter</p>
-        <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange">
-        <p>Wing width: <span id="demo"></span> millimeters.</p>
-        <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange2">
-        <p>Wing length: <span id="demo2"></span> millimeters.</p>
-        <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange3">
-        <p>Body width: <span id="demo3"></span> millimeters.</p>
-        <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange4">
-        <p>Body length: <span id="demo4"></span> millimeters.</p>
+      <div class="row">
+        <div class="col-md">
+          <div class="slidecontainer">
+            <p class="design_helicopter">Design your helicopter</p>
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange">
+            <p>Wing width: <span id="demo"></span> millimeters.</p>
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange2">
+            <p>Wing length: <span id="demo2"></span> millimeters.</p>
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange3">
+            <p>Body width: <span id="demo3"></span> millimeters.</p>
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange4">
+            <p>Body length: <span id="demo4"></span> millimeters.</p>
+            <br><br>
+            <button class="btn btn-lg btn-secondary" id="simButton">Simulate</button>
+            <br><br>
+            <p class="result_helicopter">Result</p>
+            <p>Wing width = <span id="result_wing_w"></span> millimeters.</p>
+            <p>Wing length = <span id="result_wing_l"></span> millimeters.</p>
+            <p>Body width = <span id="result_body_w"></span> millimeters.</p>
+            <p>Wing length = <span id="result_body_l"></span> millimeters.</p>
+          </div>
+        </div>
         <br><br>
-        <button class="btn btn-lg btn-secondary" id="simButton">Simulate</button>
-        <br><br>
-        <p class="result_helicopter">Result</p>
-        <p>Wing width = <span id="result_wing_w"></span> millimeters.</p>
-        <p>Wing length = <span id="result_wing_l"></span> millimeters.</p>
-        <p>Body width = <span id="result_body_w"></span> millimeters.</p>
-        <p>Wing length = <span id="result_body_l"></span> millimeters.</p>
+        <div class="simulator_area">
+          <br><br>
+          <div class="col-sm ">
+            <div class="square">
+              <span class="time" id="display">00:00 Sec</span>
+            </div>
+          </div>
+          <br><br>
+          <img src="lib/images/helicopter-logo.png" class="icon-helicopter" id="iconAnimate" width="20%" alt="">
+
+        </div>
+
+        <script src="lib/scripts/app.js"></script>
       </div>
-      <div class="simulator_area">
-      </div>
-      <div class="result_area">
-        
-      </div>
-      
-      <script src="lib/scripts/app.js"></script>
     </main>
 
     <footer class="mastfoot mt-auto">
-      <p>Change language:&nbsp&nbsp<a href="simulation-th.html">&nbspไทย&nbsp</a> - <a href="simulation-en.html">&nbspENG</a></p>
+      <p>Change language:&nbsp&nbsp<a href="simulation-th.html">&nbspไทย&nbsp</a> - <a
+          href="simulation-en.html">&nbspENG</a></p>
     </footer>
   </div>
 </body>
