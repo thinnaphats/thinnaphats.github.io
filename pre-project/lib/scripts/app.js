@@ -28,6 +28,14 @@ slider4.oninput = function () {
     output4.innerHTML = this.value;
 }
 
+var slider5 = document.getElementById("myRange5");
+var output5 = document.getElementById("demo5");
+output4.innerHTML = slider4.value;
+
+slider5.oninput = function () {
+    output5.innerHTML = this.value;
+}
+
 /* Button to simulate */
 var simButton = document.getElementById("simButton");
 const add = document.querySelector('img');
@@ -41,11 +49,14 @@ simButton.onclick = function () {
     var output2 = document.getElementById("result_wing_l");
     output2.innerHTML = slider2.value;
     var slider3 = document.getElementById("myRange3");
-    var output3 = document.getElementById("result_body_w");
+    var output3 = document.getElementById("result_wing_base_l");
     output3.innerHTML = slider3.value;
     var slider4 = document.getElementById("myRange4");
-    var output4 = document.getElementById("result_body_l");
+    var output4 = document.getElementById("result_body_w");
     output4.innerHTML = slider4.value;
+    var slider5 = document.getElementById("myRange5");
+    var output5 = document.getElementById("result_body_l");
+    output5.innerHTML = slider5.value;
 
         /*
         *Helicopter Drop
@@ -53,7 +64,7 @@ simButton.onclick = function () {
         
         const scaleKeyframes = [
           { transform: 'translateY(0px)'},
-        { transform: 'translateY(500px)'}
+        { transform: 'translateY(400px)'}
         ]
         
         const scaleTiming = {

@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    background-color: yellow;
+}
+
+#randNum {
+    color: blue;
+    font-weight: bold;
+}
+
+button {
+    background-color: green;
+    border-color: green;
+    color: white;
+    float: right;
+}
