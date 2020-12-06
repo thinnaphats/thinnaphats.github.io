@@ -14,18 +14,30 @@
   <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  
   <style>
+    * {
+      box-sizing: border-box;
+      }
     @media (min-width: 768px) {
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
       }
     }
+    @media only screen and (max-width:620px) {
+  /* For mobile phones: */
+      .menu, .main, .right {
+      width:100%;
+      }
+    }
   </style>
+
   <!-- Custom styles for this template -->
   <link href="lib/styles/simulation.css" rel="stylesheet">
 </head>
 
-<body class="text-center">
+<body>
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
       <div class="inner">
@@ -37,51 +49,60 @@
         </nav>
       </div>
     </header>
+      <div class="row no-gutter align-item-stretch">
 
-    <main role="main" class="main">
-      <div class="row">
-        <div class="col-md">
-          <div class="slidecontainer">
+        <div class="col-md-4 order-md-1 text-center border position-relative">
+          
+          <br><br>
+          <div class="col-md-12">
             <p class="design_helicopter">ออกแบบเฮลิคอปเตอร์ของคุณ</p>
+            <div class="fontSize">
             <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange">
             <p>ความกว้างปีก: <span id="demo"></span> มิลลิเมตร</p>
-            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange2">
+            <input type="range" min="20" max="100" step="20" value="20" onchange="updateWidth(this.value)" class="slider" id="myRange2">
             <p>ความยาวปีก: <span id="demo2"></span> มิลลิเมตร</p>
-            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange3">
+            <input type="range" min="20" max="100" step="20" value="20" onchange="updateWidth(this.value)" class="slider" id="myRange3">
             <p>ความกว้างลำตัว: <span id="demo3"></span> มิลลิเมตร</p>
-            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange4">
+            <input type="range" min="20" max="100" step="20" value="20" onchange="updateWidth(this.value)" class="slider" id="myRange4">
             <p>ความยาวลำตัว: <span id="demo4"></span> มิลลิเมตร</p>
+            </div>
+          </div>
+
+          <div class="col-md-12">
             <br><br>
             <button class="btn btn-lg btn-secondary" id="simButton">เริ่มการจำลอง</button>
             <br><br>
             <p class="result_helicopter">Result</p>
+          <div class="fontSize">
             <p>ความกว้างปีก = <span id="result_wing_w"></span> มิลลิเมตร</p>
             <p>ความยาวปีก = <span id="result_wing_l"></span> มิลลิเมตร</p>
             <p>ความกว้างลำตัว = <span id="result_body_w"></span> มิลลิเมตร</p>
             <p>ความยาวลำตัว = <span id="result_body_l"></span> มิลลิเมตร</p>
           </div>
         </div>
-        <br><br>
-        <div class="simulator_area">
-          <br><br>
-          <div class="col-sm ">
-            <div class="square">
-              <span class="time" id="display">00:00 Sec</span>
-            </div>
-          </div>
-          <br><br>
-          <img src="lib/images/helicopter-logo.png" class="icon-helicopter" id="iconAnimate" width="20%" alt="">
-
-        </div>
-
-        <div class="result_area">
-
-        </div>
-
-        <script src="lib/scripts/app.js"></script>
       </div>
-    </main>
-    <footer class="mastfoot mt-auto">
+
+          <br><br>
+
+          <div class = "col-md-8 order-md-2 border position-relative">
+                      <div class="col-md-12 position-relative"><div class="square ">
+                        <span class="time" id="display">00:00 Sec</span>
+                      </div>
+                    </div>
+                  
+                    <div class="col-md-4 col-md-8">
+                  <br><br><br><br>
+                     <img src="lib/images/helicopter-logo.png" class="icon-helicopter" id="iconAnimate" width="20%" alt="">
+                    </div>
+                
+              </div>
+            
+          <script src="lib/scripts/app.js"></script>
+          <script src="lib/scripts/data.js"></script>
+          
+        </div>
+      
+    <footer class="mastfoot my-5 text-center">
       <p>เปลี่ยนภาษา:&nbsp&nbsp<a href="simulation-th.html">&nbspไทย&nbsp</a> - <a
           href="simulation-en.html">&nbspENG</a></p>
     </footer>
