@@ -135,8 +135,8 @@ body {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   background: #ff7b00;
   cursor: pointer;
@@ -172,30 +172,42 @@ body {
   position: absolute;
 }
 
+.simulator_area{
+  width: 40%;
+  float: right;
+}
+
+.result_area .result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff7b00;
+}
+
 /*
  *Stopwatch
  */
  .square {
-   float: right; ;
-  
-  border: 2px solid #73AD21;
-  padding: 10px;
-  height: 60px;
-  width: 120px; 
+  float: right; ;
+ 
+ border: 2px solid #73AD21;
+ padding: 10px;
+ height: 60px;
+ width: 120px; 
 }
 
 .time {
-  font-weight: 300;
-  font-size: 20px;
-  
+ font-weight: 300;
+ font-size: 20px;
+ 
 }
 
 .icon-helicopter{
-  align-items: left;
-  margin-left: 200px ;
-  
-  
+ align-items: left;
+ margin-left: 200px ;
+ 
+ 
 }
+
 
 
 
@@ -218,5 +230,9 @@ body {
 
 .fontSize{
   font-size: 15px;
+}
+
+#recommended {
+  color: #000000;
 }
 

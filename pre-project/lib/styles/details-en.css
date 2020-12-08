@@ -35,6 +35,7 @@ body {
 }
 
 body {
+  zoom: 0.7;
   display: -ms-flexbox;
   display: flex;
   color: rgba(0, 0, 0, 0.5);
@@ -125,7 +126,24 @@ h3{
 
 }
 
-@media all and (min-width: 480px) and (max-width: 850px) {
+@media  (min-width: 320px) and (max-width: 461px) {
+  h3{
+    margin-right: 1px;
+}
+  .details3{
+    margin-left: 5px;
+
+  }
+  .text2{
+    margin-left: 3px;
+  }
+  .text3{
+    margin-left: 3px;
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 850px) {
  
     
     .masthead-brand {
@@ -163,6 +181,16 @@ h3{
 /*
  * Footer
  */
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
+.mastfoot, .mastfoot a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.mastfoot a:hover {
+  color: #ff7b00;
+}
+
+.mastfoot p {
+  color: #ff7b00;
+  font-weight: bold;
 }

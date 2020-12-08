@@ -51,26 +51,27 @@
     </header>
       <div class="row no-gutter align-item-stretch">
 
-        <div class="col-md-4 order-md-1 text-center border position-relative">
+        <div class="col-md-4 order-md-1 text-center position-relative">
           
           <br><br>
           <div class="col-md-12">
             <p class="design_helicopter">ออกแบบเฮลิคอปเตอร์ของคุณ</p>
             <div class="fontSize">
-            <input type="range" min="20" max="100" step="20" value="20" class="slider" id="myRange">
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" onchange="updateWidth(this.value)" id="myRange">
             <p>ความกว้างปีก: <span id="demo"></span> มิลลิเมตร</p>
-            <input type="range" min="20" max="100" step="20" value="20" onchange="updateWidth(this.value)" class="slider" id="myRange2">
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" onchange="updateLength(this.value)" id="myRange2">
             <p>ความยาวปีก: <span id="demo2"></span> มิลลิเมตร</p>
-            <input type="range" min="20" max="100" step="20" value="20" onchange="updateWidth(this.value)" class="slider" id="myRange3">
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" onchange="updateWidth(this.value)" id="myRange3">
             <p>ความกว้างลำตัว: <span id="demo3"></span> มิลลิเมตร</p>
-            <input type="range" min="20" max="100" step="20" value="20" onchange="updateWidth(this.value)" class="slider" id="myRange4">
+            <input type="range" min="20" max="100" step="20" value="20" class="slider" onchange="updateLength(this.value)" id="myRange4">
             <p>ความยาวลำตัว: <span id="demo4"></span> มิลลิเมตร</p>
             </div>
           </div>
 
           <div class="col-md-12">
             <br><br>
-            <button class="btn btn-lg btn-secondary" id="simButton">เริ่มการจำลอง</button>
+            <button class="btn btn-lg btn-secondary" id="simButton">เริ่มการจำลอง</button><br><br>
+            <button class="btn btn-lg btn-secondary" id = "resetButton">รีเซต</button>
             <br><br>
             <p class="result_helicopter">Result</p>
           <div class="fontSize">
@@ -84,7 +85,7 @@
 
           <br><br>
 
-          <div class = "col-md-8 order-md-2 border position-relative">
+          <div class = "col-md-8 order-md-2 position-relative">
                       <div class="col-md-12 position-relative"><div class="square ">
                         <span class="time" id="display">00:00 Sec</span>
                       </div>
@@ -99,7 +100,7 @@
             
           <script src="lib/scripts/app.js"></script>
           <script src="lib/scripts/data.js"></script>
-          
+          <script src="lib/scripts/data.js"></script>
         </div>
       
     <footer class="mastfoot my-5 text-center">

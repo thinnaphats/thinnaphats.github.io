@@ -40,6 +40,7 @@ body {
 }
 
 body {
+  zoom: 0.7;
   display: -ms-flexbox;
   display: flex;
   color: #000000;

@@ -86,9 +86,11 @@ function reset() {
 /* Button to simulate */
 var simButton = document.getElementById("simButton");
 const rotate_img = document.querySelector('img');
+var resetButton = document.getElementById('resetButton')
 
+resetButton.disabled = true;
 simButton.addEventListener('click',optionValues);
-
+resetButton.addEventListener('click',resetPage);
 function optionValues(){
   var slider = document.getElementById("myRange");
   var output = document.getElementById("result_wing_w");
@@ -104,6 +106,7 @@ function optionValues(){
   output4.innerHTML = slider4.value;
 
 
+
   /*
   *Helicopter Drop Condtition
   */
@@ -115,7 +118,9 @@ function optionValues(){
   checkBad();
 }
 
-
+function resetPage() {
+  window.location.reload();
+}
 
 
 function checkBad() {
@@ -732,6 +737,902 @@ function checkBad() {
     baddrop();
     console.log(result);
   }
+  if (result[0] == '100' && result[1] == '100' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '100' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '100' && result[2] == '40' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '100' && result[2] == '40' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '100' && result[2] == '20' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '100' && result[2] == '20' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '100' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '80' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '60' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '60' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '60' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '40' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '40' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '40' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '20' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '20' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '20' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '100' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '80' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '60' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '60' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '40' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '40' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '40' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '20' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '100' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '80' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '60' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '60' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '40' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '40' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '20' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '60' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '60' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '20' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '20' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '100' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '60' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '40' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '40' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '20' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '20' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '100' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '80' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '60' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '60' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '40' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '100' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '80' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '60' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '60' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '40' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '40' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '20' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '60' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '60' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '20' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '20' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '20' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '80' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '60' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '60' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '40' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '20' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '100' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '60' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '40' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '40' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '100' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '100' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '80' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '40' && result[3] == '20') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '60' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '60' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '40' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '100' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '100' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '100' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '80' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '80' && result[3] == '40') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '60' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '40' && result[2] == '40' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '40' && result[2] == '20' && result[3] == '100') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '20' && result[2] == '80' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '20' && result[2] == '80' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '20' && result[2] == '60' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '20' && result[2] == '60' && result[3] == '60') {
+    baddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '20' && result[2] == '40' && result[3] == '80') {
+    baddrop();
+    console.log(result);
+  }
 }
 
 function checkGood(){
@@ -1109,26 +2010,572 @@ function checkGood(){
     gooddrop();
     console.log(result);
   }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '20' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '60' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '40' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '40' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '40' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '20' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '100' && result[1] == '20' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '100' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '100' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '40' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '80' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '60' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '40' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '60' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '60' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '80' && result[1] == '20' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '80' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '80' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '60' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '60' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '60' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '100' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '80' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '60' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '60' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '40' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '80' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '60' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '60' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '40' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '40' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '60' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '40' && result[2] == '20' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '60' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '60' && result[1] == '20' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '60' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '100' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '100' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '60' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '40' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '80' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '80' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '60' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '60' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '40' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '60' && result[2] == '20' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '60' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '60' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '60' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '40' && result[2] == '20' && result[3] == '20') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '40' && result[1] == '20' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '80' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '60' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '100' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '60' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '60' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '80' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '40' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '20' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '60' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '40' && result[2] == '40' && result[3] == '100') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '40' && result[2] == '40' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '40' && result[2] == '20' && result[3] == '80') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '40' && result[2] == '20' && result[3] == '60') {
+    gooddrop();
+    console.log(result);
+  }
+  if (result[0] == '20' && result[1] == '40' && result[2] == '20' && result[3] == '40') {
+    gooddrop();
+    console.log(result);
+  }
+
+
 }
 
 //clear animated
-function clearAnimated() {
-  const scaleKeyframes = [
-    { transform: 'translateY(0px)' },
-    { transform: 'translateY(0px)' }
-  ]
-  const scaleTiming = {
-    duration: 0,
-    direction: 'alternate',
-    fill: 'forwards',
-    easing: 'ease-in-out'
-  }
-  rotate_img.animate(scaleKeyframes, scaleTiming);
-}
+// function clearAnimated() {
+//   const scaleKeyframes = [
+//     { transform: 'translateY(0px)' },
+//     { transform: 'translateY(0px)' }
+//   ]
+//   const scaleTiming = {
+//     duration: 0,
+//     direction: 'alternate',
+//     fill: 'forwards',
+//     easing: 'ease-in-out'
+//   }
+//   rotate_img.animate(scaleKeyframes, scaleTiming);
+// }
 
 //update Width
 function updateWidth(val) {
-  clearAnimated();
+  //clearAnimated();
   reset();
   if (val == 20) {
     rotate_img.setAttribute('width', 75);
@@ -1151,7 +2598,7 @@ function updateWidth(val) {
 
 //update Length
 function updateLength(val) {
-  clearAnimated();
+  //clearAnimated();
   reset();
   if (val == 20) {
     rotate_img.setAttribute('height', 75);
@@ -1212,21 +2659,20 @@ function gooddrop() {
 
 
   img_drop.onfinish = function () {
-    simButton.disabled = false;
-    document.getElementById("myRange").disabled = false;
-    document.getElementById("myRange2").disabled = false;
-    document.getElementById("myRange3").disabled = false;
-    document.getElementById("myRange4").disabled = false;
+   resetButton.disabled = false;
     pause();
     document.getElementById("simButton").addEventListener("click", event => {
       reset();
       start();
+      var result = []
       document.querySelector("img").animate(
         scaleKeyframes,
         scaleTiming,
+        rotateKeyframes,
+        rotateTiming
       );
       rotate_img.animate(rotateKeyframes, Object.assign({ composite: 'add' }, rotateTiming));
-  
+      console.log(rotateTiming.iterations)
     }, false);
   }
 }
@@ -1239,6 +2685,7 @@ function baddrop() {
   document.getElementById("myRange2").disabled = true;
   document.getElementById("myRange3").disabled = true;
   document.getElementById("myRange4").disabled = true;
+  resetButton.disabled = true;
   const scaleKeyframes = [
     { transform: 'rotate(-180deg)'}, //first choice
     //{ transform: 'rotateX(-180deg)' },  //second choice
@@ -1253,7 +2700,7 @@ function baddrop() {
     fill: 'forwards',
     easing: 'ease-in-out'
   }
-
+  console.log(scaleTiming.duration);
 
   const rotateKeyframes = [
     { transform: 'rotateY(0deg)' },
@@ -1267,7 +2714,7 @@ function baddrop() {
     easing: 'ease-in'
   }
 
-
+console.log(rotateTiming.iterations);
 
 
   rotate_img.animate(rotateKeyframes, Object.assign({ composite: 'add' }, rotateTiming));
@@ -1276,14 +2723,11 @@ function baddrop() {
 
   img_drop.onfinish = function () {
     pause();
-    simButton.disabled = false;
-    document.getElementById("myRange").disabled = false;
-    document.getElementById("myRange2").disabled = false;
-    document.getElementById("myRange3").disabled = false;
-    document.getElementById("myRange4").disabled = false;
+    resetButton.disabled = false;
     
     document.getElementById("simButton").addEventListener("click", event => {
-      reset();
+      getData();
+      reset(); 
       start();
       document.querySelector("img").animate(
         scaleKeyframes,
@@ -1293,7 +2737,8 @@ function baddrop() {
      
         
       );
-      rotate_img.animate(rotateKeyframes, Object.assign({ composite: 'add' }, rotateTiming));
+     rotate_img.animate(rotateKeyframes, Object.assign({ composite: 'add' }, rotateTiming));
+      console.log(rotateTiming.iterations)
     }, false);
   }
 }

@@ -1,6 +1,6 @@
 const {google} = require('googleapis');
+const { test } = require('./data');
 const keys = require('./keys.json');
-
 
 // https://nodejs.org
 // https://code.visualstudio.com/
@@ -32,7 +32,7 @@ async function gsrun(cl) {
         range: 'A2:B5'
     };
 
-    let data =  gsapi.spreadsheets.values.get(opt);
+    let data = await gsapi.spreadsheets.values.get(opt);
     let dataArray = data.data.values;
     dataArray = dataArray.map(function(r) {
         while(r.length < 2) {
@@ -43,21 +43,21 @@ async function gsrun(cl) {
 
     console.log(dataArray);
     
-    let newDataArray = dataArray.map(function(r) {
-        r.push(r[0] + '-' + r[1]);
-        return r;
-    });
+    // let newDataArray = dataArray.map(function(r) {
+    //     r.push(r[0] + '-' + r[1]);
+    //     return r;
+    // });
 
-    let array = [[10,20,30]]
+    let newDataArray = [test]
 
     const updateOptions = {
         spreadsheetId: '1MUoDhA7Nz3WHhhTN57kh6demGkbTBaRzSLLcrykCjps',
         range: 'A3:E100',
         valueInputOption: 'USER_ENTERED',
-        resource: {values:array}
+        resource: {values: newDataArray}
     };
 
-    let res =  gsapi.spreadsheets.values.update(updateOptions);
+    let res = await gsapi.spreadsheets.values.update(updateOptions);
 
     // console.log(res);
 }

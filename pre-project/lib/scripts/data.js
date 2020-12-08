@@ -1,5 +1,9 @@
 var random;
-var test = [10,20,30,40]
+var test = [10,20,30]
+
+
+
+
 function checkTimeBad(){
     if(slider.value == 100 && slider2.value == 100  && slider3.value == 100 && slider4.value ==100 ){
         random  = Math.random() * (3.73 - 3.38) + 3.38;
@@ -818,9 +822,1188 @@ function checkTimeBad(){
         console.log(random)
         return random;
     }
+    if(slider.value == 100 && slider2.value == 100 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.64 - 3.5) + 3.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 100 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.86 - 3.5) + 3.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 100 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (4.25 - 4) + 4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 100 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (3 - 2.96) + 2.96;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 100 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (5 - 4.8) + 4.8;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 100 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3 - 2.95) + 2.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (4 - 3.95) + 3.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.3 - 3.23) + 3.23;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.5 - 3.33) + 3.33;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.08 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (3.15 - 2.93) + 2.93;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.7 - 3.61) + 3.61;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (4 - 3.9) + 3.9;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (4.01 - 3.7) + 3.7;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.51 - 3.33) + 3.33;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (3.1 - 3.08) + 3.08;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (3.45 - 3.23) + 3.23;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.43 - 3.22) + 3.22;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (3.26 - 3.12) + 3.12;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (3.4 - 3.2) + 3.2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (3 - 2.93) + 2.93;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (3.7 - 3.65) + 3.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (3.2 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (3.01 - 2.85) + 2.85;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (4.23 - 4.01) + 4.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (2.96 - 2.88) + 2.88;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (3.25 - 3.1) + 3.1;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (3.55 - 3.09) + 3.09;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (4.1 - 4) + 4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (4.07 - 3.7) + 3.7;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.53 - 3.33) + 3.33;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (3.03 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (4.45 - 4.28) + 4.28;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (4.03 - 4) + 4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.65 - 3.53) + 3.53;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.49 - 3.3) + 3.3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (3.21 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (4.05 - 3.98) + 3.98;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.95 - 3.58) + 3.58;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (3.5 - 3.48) + 3.48;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (3.23 - 3.18) + 3.18;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (3.31 - 3.11) + 3.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (3.18 - 2.85) + 2.85;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (3.98 - 3.9) + 3.9;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (2.46 - 2.45) + 2.45;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (4 - 3.98) + 3.98;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (4.22 - 4.11) + 4.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (4.01 - 3.91) + 3.91;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.13 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (3.18 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (4.05 - 4.01) + 4.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.01 - 2.95) + 2.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.2 - 3.15) + 3.15;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (2.98 - 2.86) + 2.86;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (2.98 - 2.86) + 2.86;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (3.13 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.2 - 3.11) + 3.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (3.2 - 3.13) + 3.13;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (3 - 2.98) + 2.98;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (2.88 - 2.86) + 2.86;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (2.79 - 2.63) + 2.63;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (2.48 - 2.3) + 2.3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.38 - 3.23) + 3.23;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.1 - 2.95) + 2.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (2.9 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (2.7 - 2.6) + 2.6;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (2.7 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.18 - 3.09) + 3.09;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.29 - 3.26) + 3.26;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.49 - 3.48) + 3.48;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.43 - 3.23) + 3.23;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.18 - 3.14) + 3.14;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.88 - 3.71) + 3.71;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.65 - 3.53) + 3.53;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (2.9 - 2.88) + 2.88;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (4.15 - 4.11) + 4.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (4 - 3.95) + 3.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (3.78 - 3.6) + 3.6;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.13 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (2.99 - 2.85) + 2.85;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.23 - 3.22) + 3.22;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (3.06 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.71 - 3.65) + 3.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.18 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.11 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.16 - 3.13) + 3.13;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (3.6 - 3.5) + 3.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.8 - 3.44) + 3.44;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (3.26 - 3.26) + 3.26;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (4.25 - 4.25) + 4.25;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (3.45 - 3.38) + 3.38;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3.16 - 3.13) + 3.13;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (3.55 - 3.5) + 3.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (4.15 - 4.05) + 4.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.38 - 3.35) + 3.35;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (2.56 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.16 - 3.11) + 3.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (3.09 - 3.06) + 3.06;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.46 - 3.41) + 3.41;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.45 - 3.4) + 3.4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.23 - 3.1) + 3.1;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.09 - 3.06) + 3.06;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (3.22 - 3.18) + 3.18;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (2.99 - 2.89) + 2.89;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (3.26 - 3.2) + 3.2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (3.56 - 3.5) + 3.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (3.1 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.25 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.66 - 3.18) + 3.18;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.05 - 2.76) + 2.76;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (3 - 2.98) + 2.98;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (2.93 - 2.66) + 2.66;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (4.5 - 4) + 4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.26 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (3.3 - 3.24) + 3.24;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (3.02 - 2.95) + 2.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.55 - 3.46) + 3.46;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (3.5 - 3.11) + 3.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (3.45 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (3.05 - 2.91) + 2.91;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (2.98 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.95 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.01 - 2.81) + 2.81;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.22 - 3.11) + 3.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.06 - 3.04) + 3.04;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (3 - 2.56) + 2.56;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (2.98 - 2.81) + 2.81;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.86 - 3.77) + 3.77;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.94 - 3.92) + 3.92;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.86 - 3.76) + 3.76;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.66 - 3.58) + 3.58;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.23 - 3.13) + 3.13;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.25 - 3.16) + 3.16;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.43 - 3.4) + 3.4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (2.98 - 2.88) + 2.88;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.02 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (3.22 - 3.12) + 3.12;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (3.86 - 3.85) + 3.85;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (3.98 - 3.65) + 3.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (4.26 - 4.12) + 4.12;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (3.8 - 3.55) + 3.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.67 - 3.61) + 3.61;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.16 - 3.1) + 3.1;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.24 - 3.2) + 3.2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.3 - 3.22) + 3.22;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.34 - 3.21) + 3.21;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (2.81 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (2.97 - 2.95) + 2.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (3.45 - 3.44) + 3.44;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (3.16 - 3.15) + 3.15;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.24 - 2.2) + 2.2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (2.67 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (3.16 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (4.02 - 4) + 4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (3.1 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (2.85 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.4 - 3.22) + 3.22;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (2.81 - 2.8) + 2.8;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (2.73 - 2.7) + 2.7;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (2.6 - 2.5) + 2.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (2.93 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.38 - 3.25) + 3.25;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.09 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (2.98 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.6 - 2.5) + 2.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (2.65 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (3.03 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (3.86 - 3.65) + 3.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 100 && slider4.value == 100 ){
+        random  = Math.random() * (2.78 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (2.53 - 2.51) + 2.51;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.06 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (2.66 - 2.52) + 2.52;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (2.61 - 2.59) + 2.59;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (2.98 - 2.88) + 2.88;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (2.83 - 2.64) + 2.64;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (2.73 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (2.91 - 2.66) + 2.66;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.41 - 2.2) + 2.2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (2.63 - 2.59) + 2.59;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.01 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (2.95 - 2.66) + 2.66;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (2.99 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.23 - 3.21) + 3.21;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.03 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (2.66 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (2.66 - 2.54) + 2.54;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (2.68 - 2.59) + 2.59;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.3 - 2.15) + 2.15;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (2.55 - 2.52) + 2.52;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.51 - 3.5) + 3.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.28 - 3.11) + 3.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.03 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.33 - 3.22) + 3.22;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3 - 2.95) + 2.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (2.9 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.88 - 2.84) + 2.84;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (2.96 - 2.95) + 2.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (2.41 - 2.25) + 2.25;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.16 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.1 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (3.26 - 3.15) + 3.15;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (3.4 - 3.26) + 3.26;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (2.98 - 2.85) + 2.85;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.01 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (3.16 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.65 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (1.91 - 1.77) + 1.77;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.1 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (2.97 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (3.05 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (2.98 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (2.6 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (2.91 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (2.1 - 2.02) + 2.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (2.66 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.63 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3.08 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 100 && slider4.value == 80 ){
+        random  = Math.random() * (3.05 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 100 && slider4.value == 60 ){
+        random  = Math.random() * (3.11 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 100 && slider4.value == 40 ){
+        random  = Math.random() * (2.63 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 80 && slider4.value == 100 ){
+        random  = Math.random() * (2.81 - 2.66) + 2.66;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (2.91 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (2.91 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (1.91 - 1.56) + 1.56;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.61 - 2.56) + 2.56;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (2.91 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (2.25 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.99 - 2.7) + 2.7;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 20 && slider3.value == 80 && slider4.value == 80 ){
+        random  = Math.random() * (2.78 - 2.66) + 2.66;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 20 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.56 - 3.11) + 3.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 20 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.88 - 2.63) + 2.63;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 20 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (2.89 - 2.77) + 2.77;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 20 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (2.45 - 2.35) + 2.35;
+        console.log(random)
+        return random;
+    }
 }
 
+function getData(){
+    var option = [slider.value,slider2.value,slider3.value,slider4.value]
+    console.log(option)
+    console.log(test)
+    return option
+
+}
 function checkrotateTime(rotate_number){
+    getData();
+    
     console.log(Math.floor(random));
     console.log(Math.ceil(random));
     if(Math.floor(random) == 4){
@@ -1293,7 +2476,690 @@ function checkTimeGood(){
         console.log(random)
         return random;
     }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (3 - 2.95) + 2.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 60 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (3.42 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 40 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (2.15 - 2) + 2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 40 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (3 - 2.65) + 2.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 40 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.25 - 2) + 2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 20 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (2 - 1.96) + 1.96;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 100 && slider2.value == 20 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (2.1 - 1.96) + 1.96;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 100 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (4.73 - 4.5) + 4.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 100 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (4.9 - 4.81) + 4.81;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (4.01 - 3.78) + 3.78;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (3.91 - 3.61) + 3.61;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 80 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (4.3 - 4.1) + 4.1;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (3.33 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (3.31 - 3.13) + 3.13;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (3.88 - 3.63) + 3.63;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (3.65 - 3.58) + 3.58;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (4 - 3.6) + 3.6;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 60 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3.26 - 3.22) + 3.22;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (2.44 - 2.35) + 2.35;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (2.55 - 2.5) + 2.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (3.05 - 3.03) + 3.03;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (3.08 - 3) + 3;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (2.9 - 2.78) + 2.78;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (3.23 - 3.21) + 3.21;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 40 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3 - 2.98) + 2.98;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (2.01 - 1.81) + 1.81;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.22 - 2.21) + 2.21;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (1.85 - 1.76) + 1.76;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (1.89 - 1.88) + 1.88;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 80 && slider2.value == 20 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.13 - 2.05) + 2.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 80 && slider4.value == 60 ){
+        random  = Math.random() * (3.59 - 3.55) + 3.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (3.88 - 3.58) + 3.58;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (4 - 3.9) + 3.9;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.78 - 3.58) + 3.58;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (4.05 - 4.05) + 4.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (5.06 - 5) + 5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (4.88 - 4.83) + 4.83;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (5.08 - 5) + 5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (5.4 - 5.32) + 5.32;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 100 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (5.23 - 5.1) + 5.1;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (3.4 - 3.36) + 3.36;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (3.8 - 3.65) + 3.65;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (4 - 3.95) + 3.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (4.02 - 4) + 4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (4.22 - 4.11) + 4.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (4.23 - 4.01) + 4.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (4.44 - 4.32) + 4.32;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 80 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (4.56 - 4.46) + 4.46;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (3.05 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (3.02 - 2.88) + 2.88;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (3.22 - 3.16) + 3.16;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (3.49 - 3.43) + 3.43;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (3.65 - 3.53) + 3.53;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 40 && slider4.value == 20 ){
+        random  = Math.random() * (3.46 - 3.35) + 3.35;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (3.79 - 3.6) + 3.6;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (3.88 - 3.6) + 3.6;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (3.98 - 3.88) + 3.88;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 60 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3.66 - 3.55) + 3.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (3.22 - 2.85) + 2.85;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (3.26 - 2.99) + 2.99;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (3.28 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (2.88 - 2.81) + 2.81;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (2.99 - 2.83) + 2.83;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3.02 - 2.98) + 2.98;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 40 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (3.02 - 2.83) + 2.83;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 60 && slider4.value == 80 ){
+        random  = Math.random() * (2.46 - 2.22) + 2.22;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (2 - 1.9) + 1.9;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (1.66 - 1.56) + 1.56;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 60 && slider2.value == 20 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.1 - 2.05) + 2.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (3.2 - 3.01) + 3.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (4.48 - 4.33) + 4.33;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (4.11 - 4.05) + 4.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (4.23 - 4.15) + 4.15;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 100 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (4 - 3.95) + 3.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 100 && slider4.value == 20 ){
+        random  = Math.random() * (2.5 - 2.4) + 2.4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (2.53 - 2.5) + 2.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (3.55 - 3.52) + 3.52;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (4.21 - 4.02) + 4.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (4.21 - 4.05) + 4.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (3.91 - 3.5) + 3.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (4.71 - 4.55) + 4.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (4.51 - 4.5) + 4.5;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 80 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (5.36 - 5.01) + 5.01;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 80 && slider4.value == 20 ){
+        random  = Math.random() * (2.43 - 2.41) + 2.41;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (2.4 - 2.2) + 2.2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (2.75 - 2.66) + 2.66;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (3.21 - 3.2) + 3.2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (3.5 - 3.25) + 3.25;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (3.65 - 3.52) + 3.52;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (3.85 - 3.84) + 3.84;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (3.96 - 3.95) + 3.95;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (4.15 - 4.1) + 4.1;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (4.1 - 4) + 4;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 60 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (3.78 - 3.74) + 3.74;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 60 && slider4.value == 100 ){
+        random  = Math.random() * (2 - 1.9) + 1.9;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (2.16 - 2.1) + 2.16;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 60 && slider4.value == 20 ){
+        random  = Math.random() * (2.28 - 2.2) + 2.2;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (2.36 - 2.32) + 2.32;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (2.46 - 2.44) + 2.44;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (2.66 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (2.36 - 2.23) + 2.23;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.83 - 2.66) + 2.66;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (2.65 - 2.61) + 2.61;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (3.05 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3.12 - 3.11) + 3.11;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 40 && slider3.value == 20 && slider4.value == 20 ){
+        random  = Math.random() * (3.18 - 3.15) + 3.15;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (1.68 - 1.55) + 1.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (1.65 - 1.62) + 1.62;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 40 && slider2.value == 20 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.15 - 2.02) + 2.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 80 && slider4.value == 40 ){
+        random  = Math.random() * (2.81 - 2.66) + 2.66;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (3.63 - 3.55) + 3.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (2.15 - 2.05) + 2.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 40 && slider4.value == 80 ){
+        random  = Math.random() * (4.61 - 4.55) + 4.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (4.65 - 4.62) + 4.62;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.45 - 2.44) + 2.44;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (4.46 - 4.25) + 4.25;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (4.66 - 4.55) + 4.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 100 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3.26 - 3.15) + 3.15;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 60 && slider4.value == 60 ){
+        random  = Math.random() * (3.08 - 3.05) + 3.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 60 && slider4.value == 40 ){
+        random  = Math.random() * (3.25 - 3.1) + 3.1;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (2.18 - 2.05) + 2.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.38 - 2.25) + 2.25;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (2.48 - 2.44) + 2.44;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (2.45 - 2.22) + 2.22;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 80 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (3.03 - 3.02) + 3.02;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (1.96 - 1.55) + 1.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (2.11 - 2.05) + 2.05;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 40 && slider4.value == 40 ){
+        random  = Math.random() * (1.88 - 1.85) + 1.85;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 20 && slider4.value == 100 ){
+        random  = Math.random() * (2.83 - 2.55) + 2.55;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (2.63 - 2.62) + 2.62;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 60 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (2.56 - 2.52) + 2.52;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 40 && slider4.value == 100 ){
+        random  = Math.random() * (2.05 - 1.98) + 1.98;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 40 && slider4.value == 60 ){
+        random  = Math.random() * (2.01 - 1.91) + 1.91;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 20 && slider4.value == 80 ){
+        random  = Math.random() * (2.98 - 2.28) + 2.28;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 20 && slider4.value == 60 ){
+        random  = Math.random() * (3.12 - 2.98) + 2.98;
+        console.log(random)
+        return random;
+    }
+    if(slider.value == 20 && slider2.value == 40 && slider3.value == 20 && slider4.value == 40 ){
+        random  = Math.random() * (2.87 - 2.75) + 2.75;
+        console.log(random)
+        return random;
+    }
+
 
 }
 
-//module.exports = {test};
+
+
+

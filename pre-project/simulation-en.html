@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v4.1.1">
@@ -14,6 +14,9 @@
   <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link>
+  
   <style>
     * {
     box-sizing: border-box;
@@ -49,19 +52,19 @@
     </header>
         <div class="row no-gutters align-items-stretch">
          
-          <div class="col-md-4 order-md-1 text-center border position-relative">
+          <div class="col-md-4 order-md-1 text-center position-relative">
             
               <br><br>
               <div class="col-md-12">
               <p class="design_helicopter">Design your helicopter</p>
               <div class="fontSize">
-                <input type="range" min="20" max="100" step="20" value="20" onchange="updateW_width(this.value)" class="slider" id="myRange">
+                <input type="range" min="20" max="100" step="20" value="20" onchange="updateWidth(this.value)" class="slider" id="myRange">
                 <p>Wing width: <span id="demo"></span> millimeters.</p>
-                <input type="range" min="20" max="100" step="20" value="20" onchange="updateW_length(this.value)"class="slider" id="myRange2">
+                <input type="range" min="20" max="100" step="20" value="20" onchange="updateLength(this.value)" class="slider" id="myRange2">
                 <p>Wing length: <span id="demo2"></span> millimeters.</p>
-                <input type="range" min="20" max="100" step="20" value="20" onchange="updateB_width(this.value)" class="slider" id="myRange3">
+                <input type="range" min="20" max="100" step="20" value="20" onchange="updateWidth(this.value)" class="slider" id="myRange3">
                 <p>Body width: <span id="demo3"></span> millimeters.</p>
-                <input type="range" min="20" max="100" step="20" value="20" onchange="updateB_length(this.value)" class="slider" id="myRange4">
+                <input type="range" min="20" max="100" step="20" value="20" onchange="updateLength(this.value)" class="slider" id="myRange4">
                 <p>Body length: <span id="demo4"></span> millimeters.</p>
               </div>
             </div>
@@ -69,6 +72,9 @@
               <div class="col-md-12">
                 <br><br>
                 <button class="btn btn-lg btn-secondary" id="simButton">Simulate</button>
+                <br><br>
+                <button class="btn btn-lg btn-secondary" id = "resetButton">Reset</button>
+            
                 <br><br>
                 <p class="result_helicopter">Result</p>
               <div class="fontSize">
@@ -82,7 +88,7 @@
 
               <br><br>
                 
-              <div class = "col-md-8 order-md-2 border position-relative">
+              <div class = "col-md-8 order-md-2 position-relative">
                       <div class="col-md-12 position-relative"><div class="square ">
                         <span class="time" id="display">00:00 Sec</span>
                       </div>
@@ -96,6 +102,7 @@
               </div>
             
           <script src="lib/scripts/app.js"></script>
+          <script src="lib/scripts/data.js"></script>
           <script src="lib/scripts/data.js"></script>
           
         </div>

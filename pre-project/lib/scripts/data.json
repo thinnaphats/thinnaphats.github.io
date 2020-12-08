@@ -1,0 +1,3306 @@
+{
+    "drop case": [
+        {
+            "Case1": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    3.78,
+                    3.73
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case2": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    2.98,
+                    2.41
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case3": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.67,
+                    3.51
+                ],
+                "Drop": "Perfect"
+            },
+            "Case4": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.35,
+                    3.33
+                ],
+                "Drop": "Perfect"
+            },
+            "Case5": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.7,
+                    3.43
+                ],
+                "Drop": "Perfect"
+            },
+            "Case6": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    3.75,
+                    3.71
+                ],
+                "Drop": "Perfect"
+            },
+            "Case7": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    3.86,
+                    3.77
+                ],
+                "Drop": "Perfect"
+            },
+            "Case8": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.9,
+                    3.83
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case9": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.64,
+                    3.5
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case10": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    3.67,
+                    3.63
+                ],
+                "Drop": "Perfect"
+            },
+            "Case11": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    4.08,
+                    3.81
+                ],
+                "Drop": "Perfect"
+            },
+            "Case12": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.86,
+                    3.8
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case13": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    3.4,
+                    3.32
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case14": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    3.61,
+                    3.32
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case15": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    3.81,
+                    3.63
+                ],
+                "Drop": "Perfect"
+            },
+            "Case16": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    4.16,
+                    4.12
+                ],
+                "Drop": "Perfect"
+            },
+            "Case17": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    4.3,
+                    4.25
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case18": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    2.96,
+                    2.67
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case19": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    3.62,
+                    3.33
+                ],
+                "Drop": "Perfect"
+            },
+            "Case20": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    4.43,
+                    3.91
+                ],
+                "Drop": "Perfect"
+            },
+            "Case21": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    5.03,
+                    4.46
+                ],
+                "Drop": "Perfect"
+            },
+            "Case22": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    4.81,
+                    4.6
+                ],
+                "Drop": "Perfect"
+            },
+            "Case23": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    5,
+                    4.83
+                ],
+                "Drop": "Perfect"
+            },
+            "Case24": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    3.5,
+                    3.16
+                ],
+                "Drop": "Perfect"
+            },
+            "Case25": {
+                "Wing Width": 100,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    4.53,
+                    4.33
+                ],
+                "Drop": "Perfect"
+            },
+            "Case26": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    3.55,
+                    3.36
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case27": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    3.68,
+                    3.23
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case28": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.85,
+                    3.44
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case29": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.3,
+                    3.12
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case30": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.04,
+                    2.98
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case31": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    3.54,
+                    3.38
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case32": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    3.76,
+                    3.54
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case33": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.65,
+                    3.45
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case34": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.33,
+                    3.11
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case35": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    3.33,
+                    3.21
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case36": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    3.58,
+                    3.21
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case37": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.5,
+                    3.23
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case38": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    3.75,
+                    3.66
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case39": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    3.56,
+                    3.3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case40": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    3.46,
+                    3.31
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case41": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    3.46,
+                    3.33
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case42": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    3.4,
+                    3.12
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case43": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    3.43,
+                    3.33
+                ],
+                "Drop": "Perfect"
+            },
+            "Case44": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    3.43,
+                    3.02
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case45": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    3.8,
+                    3.67
+                ],
+                "Drop": "Perfect"
+            },
+            "Case46": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    4.03,
+                    3.95
+                ],
+                "Drop": "Perfect"
+            },
+            "Case47": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    4.05,
+                    4.01
+                ],
+                "Drop": "Perfect"
+            },
+            "Case48": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    4.03,
+                    4
+                ],
+                "Drop": "Perfect"
+            },
+            "Case49": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    3.66,
+                    3.56
+                ],
+                "Drop": "Perfect"
+            },
+            "Case50": {
+                "Wing Width": 100,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    3.98,
+                    3.8
+                ],
+                "Drop": "Perfect"
+            },
+            "Case51": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    4.25,
+                    4.05
+                ],
+                "Drop": "Perfect"
+            },
+            "Case52": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    3.51,
+                    3.41
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case53": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.73,
+                    3.71
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case54": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.05,
+                    2.98
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case55": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    2.81,
+                    2.75
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case56": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    3.83,
+                    2.86
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case57": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    3.78,
+                    3.11
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case58": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.78,
+                    3.71
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case59": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.11,
+                    3.02
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case60": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    3.22,
+                    3.16
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case61": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    3.91,
+                    3.51
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case62": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.78,
+                    3.51
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case63": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    2.98,
+                    2.91
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case64": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.39,
+                    3.21
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case65": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.08,
+                    2.93
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case66": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    3.95,
+                    3.87
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case67": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    3.52,
+                    3.23
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case68": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    3.65,
+                    3.12
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case69": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    3.44,
+                    3.21
+                ],
+                "Drop": "Perfect"
+            },
+            "Case70": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    3.44,
+                    3.1
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case71": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    3.42,
+                    3.3
+                ],
+                "Drop": "Perfect"
+            },
+            "Case72": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    3.2,
+                    3.01
+                ],
+                "Drop": "Perfect"
+            },
+            "Case73": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    3.46,
+                    3.33
+                ],
+                "Drop": "Perfect"
+            },
+            "Case74": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    3.33,
+                    3.27
+                ],
+                "Drop": "Perfect"
+            },
+            "Case75": {
+                "Wing Width": 100,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    3.53,
+                    3.48
+                ],
+                "Drop": "Perfect"
+            },
+            "Case76": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    3.95,
+                    3.7
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case77": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    2.77,
+                    2.65
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case78": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.6,
+                    3.45
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case79": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.18,
+                    3.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case80": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.05,
+                    3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case81": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    3.9,
+                    3.89
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case82": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    3.9,
+                    3.6
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case83": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.26,
+                    3.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case84": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    2.23,
+                    2.22
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case85": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    2.67,
+                    2.66
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case86": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    2.49,
+                    2.46
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case87": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    2.7,
+                    2.68
+                ],
+                "Drop": "Perfect"
+            },
+            "Case88": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    2.94,
+                    2.9
+                ],
+                "Drop": "Perfect"
+            },
+            "Case89": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    3.34,
+                    3.18
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case90": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    2.98,
+                    2.78
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case91": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    2.65,
+                    2.15
+                ],
+                "Drop": "Perfect"
+            },
+            "Case92": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    3,
+                    2.65
+                ],
+                "Drop": "Perfect"
+            },
+            "Case93": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    2.75,
+                    2.68
+                ],
+                "Drop": "Perfect"
+            },
+            "Case94": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    2.75,
+                    2.56
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case95": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    2.46,
+                    2.34
+                ],
+                "Drop": "Perfect"
+            },
+            "Case96": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    2.25,
+                    2
+                ],
+                "Drop": "Perfect"
+            },
+            "Case97": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    2.96,
+                    2.77
+                ],
+                "Drop": "Perfect"
+            },
+            "Case98": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    2.98,
+                    2.88
+                ],
+                "Drop": "Perfect"
+            },
+            "Case99": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    2.61,
+                    2.55
+                ],
+                "Drop": "Perfect"
+            },
+            "Case100": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    3.01,
+                    2.76
+                ],
+                "Drop": "Perfect"
+            },
+            "Case101": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    2.93,
+                    2.85
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case102": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    3.79,
+                    3.58
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case103": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.58,
+                    3.41
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case104": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.11,
+                    3.08
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case105": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    2.89,
+                    2.83
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case106": {
+                "Wing Width": 100,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    1.88,
+                    1.76
+                ],
+                "Drop": "Perfect"
+            },
+            "Case107": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    2.13,
+                    2.09
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case108": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    2.44,
+                    2.35
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case109": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.12,
+                    3.11
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case110": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    2.68,
+                    2.66
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case111": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    1.88,
+                    1.85
+                ],
+                "Drop": "Perfect"
+            },
+            "Case112": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    1.77,
+                    1.68
+                ],
+                "Drop": "Perfect"
+            },
+            "Case113": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    2.23,
+                    2.1
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case114": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    3.01,
+                    2.93
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case115": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    2.77,
+                    2.6
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case116": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    2,
+                    1.96
+                ],
+                "Drop": "Perfect"
+            },
+            "Case117": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    2.1,
+                    1.96
+                ],
+                "Drop": "Perfect"
+            },
+            "Case118": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    1.98,
+                    1.78
+                ],
+                "Drop": "Perfect"
+            },
+            "Case119": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    2.33,
+                    2.1
+                ],
+                "Drop": "Perfect"
+            },
+            "Case120": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    2.77,
+                    2.68
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case121": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    2.44,
+                    2.31
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case122": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    2.34,
+                    2.16
+                ],
+                "Drop": "Perfect"
+            },
+            "Case123": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    2.22,
+                    2.08
+                ],
+                "Drop": "Perfect"
+            },
+            "Case124": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    1.98,
+                    1.88
+                ],
+                "Drop": "Perfect"
+            },
+            "Case125": {
+                "Wing Width": 100,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    3,
+                    2.83
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case126": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    3.75,
+                    3.41
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case127": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    3.23,
+                    2.36
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case128": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.44,
+                    3.15
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case129": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.28,
+                    3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case130": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.33,
+                    3.21
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case131": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    3.5,
+                    3.44
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case132": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    3.77,
+                    3.76
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case133": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.76,
+                    3.66
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case134": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.65,
+                    3.31
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case135": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    3.3,
+                    3.11
+                ],
+                "Drop": "Perfect"
+            },
+            "Case136": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    3.56,
+                    3.44
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case137": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.9,
+                    3.87
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case138": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    3.78,
+                    3.66
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case139": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    4.3,
+                    4.1
+                ],
+                "Drop": "Perfect"
+            },
+            "Case140": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    3.65,
+                    3.57
+                ],
+                "Drop": "Perfect"
+            },
+            "Case141": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    4.11,
+                    4.06
+                ],
+                "Drop": "Perfect"
+            },
+            "Case142": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    4.66,
+                    4.51
+                ],
+                "Drop": "Perfect"
+            },
+            "Case143": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    4.9,
+                    4.88
+                ],
+                "Drop": "Perfect"
+            },
+            "Case144": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    3.8,
+                    3.56
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case145": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    3.51,
+                    3.48
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case146": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    5,
+                    4.8
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case147": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    4.73,
+                    4.5
+                ],
+                "Drop": "Perfect"
+            },
+            "Case148": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    4.9,
+                    4.81
+                ],
+                "Drop": "Perfect"
+            },
+            "Case149": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    3,
+                    2.95
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case150": {
+                "Wing Width": 80,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    3.36,
+                    3.05
+                ],
+                "Drop": "Perfect"
+            },
+            "Case151": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    4,
+                    3.95
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case152": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    3.23,
+                    3
+                ],
+                "Drop": "imperfect"
+            },
+            "Case153": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.5,
+                    3.33
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case154": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.08,
+                    3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case155": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.15,
+                    2.93
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case156": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    3.7,
+                    3.61
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case157": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    4,
+                    3.9
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case158": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    4.01,
+                    3.7
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case159": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.51,
+                    3.33
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case160": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    3.1,
+                    3.08
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case161": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    3.45,
+                    3.23
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case162": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.43,
+                    3.22
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case163": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    3.26,
+                    3.12
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case164": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    3.4,
+                    3.2
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case165": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    3,
+                    2.93
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case166": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    3.7,
+                    3.65
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case167": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    4.3,
+                    4.12
+                ],
+                "Drop": "Perfect"
+            },
+            "Case168": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    3.2,
+                    3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case169": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    4.01,
+                    3.78
+                ],
+                "Drop": "Perfect"
+            },
+            "Case170": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    3.01,
+                    2.85
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case171": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    3.91,
+                    3.61
+                ],
+                "Drop": "Perfect"
+            },
+            "Case172": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    4.23,
+                    4.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case173": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    4.3,
+                    4.1
+                ],
+                "Drop": "Perfect"
+            },
+            "Case174": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    2.96,
+                    2.88
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case175": {
+                "Wing Width": 80,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    3.25,
+                    3.1
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case176": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    3.55,
+                    3.09
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case177": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    4.1,
+                    3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case178": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    4.01,
+                    3.7
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case179": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.53,
+                    3.33
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case180": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.03,
+                    3.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case181": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    4.45,
+                    4.28
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case182": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    4.03,
+                    4
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case183": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.65,
+                    3.53
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case184": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.49,
+                    3.3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case185": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    3.21,
+                    3.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case186": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    4.05,
+                    3.98
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case187": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.95,
+                    3.85
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case188": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    3.39,
+                    3.23
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case189": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    3.5,
+                    3.48
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case190": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    3.23,
+                    3.18
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case191": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    3.33,
+                    3.02
+                ],
+                "Drop": "Perfect"
+            },
+            "Case192": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    3.31,
+                    3.11
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case193": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    3.31,
+                    3.13
+                ],
+                "Drop": "Perfect"
+            },
+            "Case194": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    3.18,
+                    2.85
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case195": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    2.98,
+                    2.9
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case196": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    3.88,
+                    3.68
+                ],
+                "Drop": "Perfect"
+            },
+            "Case197": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    3.65,
+                    3.58
+                ],
+                "Drop": "Perfect"
+            },
+            "Case198": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    3.6,
+                    3.4
+                ],
+                "Drop": "Perfect"
+            },
+            "Case199": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    3.26,
+                    3.22
+                ],
+                "Drop": "Perfect"
+            },
+            "Case200": {
+                "Wing Width": 80,
+                "Wing Length": 60,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    2.46,
+                    2.45
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case201": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    4,
+                    3.98
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case202": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    4.22,
+                    4.11
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case203": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    4.01,
+                    3.91
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case204": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.13,
+                    3.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case205": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.08,
+                    3.02
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case206": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    4.05,
+                    4.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case207": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    3.01,
+                    2.95
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case208": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.2,
+                    3.15
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case209": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.38,
+                    3.12
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case210": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    2.98,
+                    2.86
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case211": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    3.13,
+                    3.05
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case212": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.2,
+                    3.11
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case213": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    3.2,
+                    3.13
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case214": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    3.22,
+                    3.1
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case215": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    3,
+                    2.98
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case216": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    2.44,
+                    2.35
+                ],
+                "Drop": "Perfect"
+            },
+            "Case217": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    2.55,
+                    2.5
+                ],
+                "Drop": "Perfect"
+            },
+            "Case218": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    3.05,
+                    3.03
+                ],
+                "Drop": "Perfect"
+            },
+            "Case219": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    2.88,
+                    2.86
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case220": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    2.79,
+                    2.63
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case221": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    3.08,
+                    3
+                ],
+                "Drop": "Perfect"
+            },
+            "Case222": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    2.9,
+                    2.79
+                ],
+                "Drop": "Perfect"
+            },
+            "Case223": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    3.23,
+                    3.21
+                ],
+                "Drop": "Perfect"
+            },
+            "Case224": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    3,
+                    2.98
+                ],
+                "Drop": "Perfect"
+            },
+            "Case225": {
+                "Wing Width": 80,
+                "Wing Length": 40,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    2.48,
+                    2.3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case226": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    3.26,
+                    3.13
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case227": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    3.38,
+                    3.23
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case228": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.1,
+                    2.95
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case229": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    2.9,
+                    2.65
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case230": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    2.78,
+                    2.44
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case231": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    2.7,
+                    2.6
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case232": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    2.7,
+                    2.55
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case233": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.18,
+                    3.09
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case234": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.29,
+                    3.26
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case235": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    2.74,
+                    2.55
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case236": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    2.01,
+                    1.81
+                ],
+                "Drop": "Perfect"
+            },
+            "Case237": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    2.22,
+                    2.21
+                ],
+                "Drop": "Perfect"
+            },
+            "Case238": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    2.78,
+                    2.71
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case239": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    2.7,
+                    2.67
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case240": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    2.53,
+                    2.44
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case241": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    1.85,
+                    1.76
+                ],
+                "Drop": "Perfect"
+            },
+            "Case242": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    1.89,
+                    1.88
+                ],
+                "Drop": "Perfect"
+            },
+            "Case243": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    1.88,
+                    1.83
+                ],
+                "Drop": "Perfect"
+            },
+            "Case244": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    2.23,
+                    2.01
+                ],
+                "Drop": "Perfect"
+            },
+            "Case245": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    2.7,
+                    2.56
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case246": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    2.13,
+                    2.05
+                ],
+                "Drop": "Perfect"
+            },
+            "Case247": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    1.99,
+                    1.85
+                ],
+                "Drop": "Perfect"
+            },
+            "Case248": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    1.99,
+                    1.95
+                ],
+                "Drop": "Perfect"
+            },
+            "Case249": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    2.11,
+                    2.03
+                ],
+                "Drop": "Perfect"
+            },
+            "Case250": {
+                "Wing Width": 80,
+                "Wing Length": 20,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    2.66,
+                    2.53
+                ],
+                "Drop": "Perfect"
+            },
+            "Case251": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    3.14,
+                    3.06
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case252": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    3.49,
+                    3.48
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case253": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    3.43,
+                    3.23
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case254": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.18,
+                    3.14
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case255": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.31,
+                    3.3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case256": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    3.88,
+                    3.71
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case257": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    3.53,
+                    3.65
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case258": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.59,
+                    3.55
+                ],
+                "Drop": "Perfect"
+            },
+            "Case259": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.88,
+                    3.58
+                ],
+                "Drop": "Perfect"
+            },
+            "Case260": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    3.88,
+                    3.23
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case261": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    4,
+                    3.9
+                ],
+                "Drop": "Perfect"
+            },
+            "Case262": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.78,
+                    3.5
+                ],
+                "Drop": "Perfect"
+            },
+            "Case263": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    4.06,
+                    4.05
+                ],
+                "Drop": "Perfect"
+            },
+            "Case264": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    2.9,
+                    2.88
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case265": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    3.51,
+                    3.44
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case266": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    5.06,
+                    5
+                ],
+                "Drop": "Perfect"
+            },
+            "Case267": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    4.88,
+                    4.83
+                ],
+                "Drop": "Perfect"
+            },
+            "Case268": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    5.08,
+                    5
+                ],
+                "Drop": "Perfect"
+            },
+            "Case269": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    5.13,
+                    5.12
+                ],
+                "Drop": "Perfect"
+            },
+            "Case270": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    3.6,
+                    3.55
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case271": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    5.4,
+                    5.32
+                ],
+                "Drop": "Perfect"
+            },
+            "Case272": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    5.23,
+                    5.1
+                ],
+                "Drop": "Perfect"
+            },
+            "Case273": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    4.15,
+                    4.1
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case274": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    4,
+                    3.95
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case275": {
+                "Wing Width": 60,
+                "Wing Length": 100,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    3.6,
+                    3.55
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case276": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 100,
+                "Result": [
+                    3.78,
+                    3.6
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case277": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 80,
+                "Result": [
+                    3.13,
+                    3.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case278": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 60,
+                "Result": [
+                    2.99,
+                    2.85
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case279": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 40,
+                "Result": [
+                    3.23,
+                    3.22
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case280": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 100,
+                "Body Length": 20,
+                "Result": [
+                    3.06,
+                    3
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case281": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 100,
+                "Result": [
+                    3.71,
+                    3.65
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case282": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 80,
+                "Result": [
+                    3.18,
+                    3.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case283": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 60,
+                "Result": [
+                    3.11,
+                    3.01
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case284": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 40,
+                "Result": [
+                    3.16,
+                    3.13
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case285": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 80,
+                "Body Length": 20,
+                "Result": [
+                    3.4,
+                    3.36
+                ],
+                "Drop": "Perfect"
+            },
+            "Case286": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 100,
+                "Result": [
+                    3.6,
+                    3.5
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case287": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 80,
+                "Result": [
+                    3.8,
+                    3.44
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case288": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 60,
+                "Result": [
+                    3.8,
+                    3.65
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case289": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 40,
+                "Result": [
+                    4,
+                    3.95
+                ],
+                "Drop": "Perfect"
+            },
+            "Case290": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 60,
+                "Body Length": 20,
+                "Result": [
+                    3.26,
+                    3.26
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case291": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 100,
+                "Result": [
+                    4.02,
+                    4
+                ],
+                "Drop": "Perfect"
+            },
+            "Case292": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 80,
+                "Result": [
+                    4.42,
+                    4.16
+                ],
+                "Drop": "Perfect"
+            },
+            "Case293": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 60,
+                "Result": [
+                    4.26,
+                    4.25
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case294": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 40,
+                "Result": [
+                    4.12,
+                    4.11
+                ],
+                "Drop": "Perfect"
+            },
+            "Case295": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 40,
+                "Body Length": 20,
+                "Result": [
+                    3.45,
+                    3.38
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case296": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 100,
+                "Result": [
+                    4.23,
+                    4.01
+                ],
+                "Drop": "Perfect"
+            },
+            "Case297": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 80,
+                "Result": [
+                    4.4,
+                    4.32
+                ],
+                "Drop": "Perfect"
+            },
+            "Case298": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 60,
+                "Result": [
+                    4.56,
+                    4.46
+                ],
+                "Drop": "Perfect"
+            },
+            "Case299": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 40,
+                "Result": [
+                    3.16,
+                    3.13
+                ],
+                "Drop": "Imperfect"
+            },
+            "Case300": {
+                "Wing Width": 60,
+                "Wing Length": 80,
+                "Body Width": 20,
+                "Body Length": 20,
+                "Result": [
+                    3.55,
+                    3.5
+                ],
+                "Drop": "Imperfect"
+            }
+        }
+    ]
+}
